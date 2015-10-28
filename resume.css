@@ -1,0 +1,47 @@
+@import url("base.css");
+@import url("screen.css") screen;
+@import url("resume-print.css") print;
+*:not(nav) > h1 {
+	font-size: 14pt;
+	margin: 20pt 0 12pt 0;
+	counter-reset: h2 h3 h4;
+}
+h2 {
+	font-size: 12pt;
+	margin: 16pt 0 8pt 0;
+	counter-reset: h3 h4;
+}
+h3 {
+	font-size: 11pt;
+	margin: 16pt 0 8pt 0;
+	counter-reset: h4;
+}
+h4, h5 {
+	font-size: 10pt;
+	margin: 8pt 0 3pt 0;
+}
+header {
+	padding-top: 0.5em;	
+	padding-bottom: 0.5em;	
+}
+h1 {
+	position: relative;
+	left: -5em;
+}
+h2 {
+	position: relative;
+	left: -4em;
+}
+h3 {
+	position: relative;
+	left: -2em;
+}
+body > #competence-profile + ul, /* competences list */ 
+body > h3#competences + ul { /* competences list */ 
+	column-count: 3;
+	background: red;
+}
+body > h2 + ul { /* project date */
+}
+body > h2 + ul > li { /* project date */
+}
