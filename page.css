@@ -2,7 +2,6 @@
 @import url("screen.css") screen;
 @import url("page-print.css") print;
 header {
-	font-size: 14pt;
 	padding: 10px 0 10px 0;
 }
 *:not(nav) > h1 {
